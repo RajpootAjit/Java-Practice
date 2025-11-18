@@ -11,7 +11,8 @@ public class LengthOfLastWrd {
 //		System.out.println(words[2].length());
 		for(String word : words) {
 			if(word.length()>=1)
-			System.out.println(word.charAt(0));
+			//System.out.println(word.charAt(0));
+			System.out.println(word.charAt(word.length()-1));
 		}
 
 	}
